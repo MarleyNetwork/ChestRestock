@@ -1,7 +1,7 @@
 package com.dumptruckman.chestrestock.api;
 
-import com.dumptruckman.chestrestock.api.CRChest.Constants;
 import com.dumptruckman.chestrestock.util.Language;
+import com.dumptruckman.chestrestock.api.CRChest.Constants;
 import com.dumptruckman.minecraft.pluginbase.config.BaseConfig;
 import com.dumptruckman.minecraft.pluginbase.config.ConfigEntry;
 import com.dumptruckman.minecraft.pluginbase.config.EntryBuilder;

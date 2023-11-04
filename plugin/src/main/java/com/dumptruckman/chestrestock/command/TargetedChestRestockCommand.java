@@ -1,8 +1,8 @@
 package com.dumptruckman.chestrestock.command;
 
+import com.dumptruckman.chestrestock.util.Language;
 import com.dumptruckman.chestrestock.api.ChestManager;
 import com.dumptruckman.chestrestock.api.ChestRestock;
-import com.dumptruckman.chestrestock.util.Language;
 import com.dumptruckman.minecraft.pluginbase.locale.Messages;
 import org.bukkit.block.Block;
 import org.bukkit.command.CommandSender;

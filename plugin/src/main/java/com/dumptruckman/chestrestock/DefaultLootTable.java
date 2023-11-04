@@ -1,7 +1,6 @@
 package com.dumptruckman.chestrestock;
 
 import com.dumptruckman.chestrestock.api.LootTable;
-import com.dumptruckman.chestrestock.api.LootTable.ItemSection;
 import com.dumptruckman.minecraft.pluginbase.util.Logging;
 import org.bukkit.Material;
 import org.bukkit.configuration.ConfigurationSection;
@@ -17,7 +16,7 @@ import java.util.Map;
 import java.util.Random;
 import java.util.Set;
 
-class DefaultLootTable implements LootTable, ItemSection {
+class DefaultLootTable implements LootTable, LootTable.ItemSection {
 
     private ItemSection topSection;
 

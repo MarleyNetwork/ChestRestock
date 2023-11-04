@@ -1,7 +1,7 @@
 package com.dumptruckman.chestrestock.api;
 
-import com.dumptruckman.chestrestock.Players;
 import com.dumptruckman.chestrestock.util.BlockLocation;
+import com.dumptruckman.chestrestock.Players;
 import com.dumptruckman.minecraft.pluginbase.config.Config;
 import com.dumptruckman.minecraft.pluginbase.config.ConfigEntry;
 import com.dumptruckman.minecraft.pluginbase.config.EntryBuilder;
@@ -58,7 +58,7 @@ public interface CRChest extends Config, CRChestOptions {
     /**
      * Indicates the maximum size of an inventory.
      * @deprecated as of release 2.3.  Use {@link CRConfig#MAX_INVENTORY_SIZE} and
-     * {@link com.dumptruckman.chestrestock.api.CRChest.Constants#getMaxInventorySize()} instead.
+     * {@link CRChest.Constants#getMaxInventorySize()} instead.
      */
     @Deprecated
     int MAX_SIZE = 54;

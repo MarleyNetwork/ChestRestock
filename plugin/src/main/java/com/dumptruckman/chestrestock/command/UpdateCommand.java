@@ -1,8 +1,8 @@
 package com.dumptruckman.chestrestock.command;
 
+import com.dumptruckman.chestrestock.util.Language;
 import com.dumptruckman.chestrestock.api.CRChest;
 import com.dumptruckman.chestrestock.api.ChestRestock;
-import com.dumptruckman.chestrestock.util.Language;
 import com.dumptruckman.chestrestock.util.Perms;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;

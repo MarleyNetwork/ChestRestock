@@ -1,7 +1,5 @@
 package com.dumptruckman.chestrestock;
 
-import com.dumptruckman.chestrestock.api.CRChest;
-import com.dumptruckman.chestrestock.api.CRChestOpenEvent;
 import com.dumptruckman.chestrestock.api.CRChestRestockEvent;
 import com.dumptruckman.chestrestock.api.CRPlayer;
 import com.dumptruckman.chestrestock.api.ChestRestock;
@@ -9,6 +7,8 @@ import com.dumptruckman.chestrestock.api.LootTable;
 import com.dumptruckman.chestrestock.util.BlockLocation;
 import com.dumptruckman.chestrestock.util.InventoryTools;
 import com.dumptruckman.chestrestock.util.Perms;
+import com.dumptruckman.chestrestock.api.CRChest;
+import com.dumptruckman.chestrestock.api.CRChestOpenEvent;
 import com.dumptruckman.minecraft.pluginbase.config.AbstractYamlConfig;
 import com.dumptruckman.minecraft.pluginbase.util.Logging;
 import org.bukkit.Bukkit;
